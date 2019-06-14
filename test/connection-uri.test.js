@@ -20,7 +20,6 @@ describe('connection-uri', () => {
       .end();
   });
 
-
   before(() => {
     app = mm.app({
       baseDir: 'apps/connection-uri',
