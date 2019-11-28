@@ -19,13 +19,20 @@ interface EggSequelizeOptions extends sequelize.Options {
   /**
    * A full database URI
    * @example
-   * `connectionUri:"mysql://localhost:3306/database"`
+   * `connectionUri: "mysql://localhost:3306/database"`
    */
   connectionUri?: string;
+
+  /**
+   * Customized sequelize instance
+   * @example
+   * `Sequelize: require('sequelize-typescript').Sequelize`
+   */
+  Sequelize?: any;
 }
 
 interface DataSources {
-  datasources: EggSequelizeOptions[];
+    datasources: EggSequelizeOptions[];
 }
 
 declare module 'egg' {
@@ -33,13 +40,13 @@ declare module 'egg' {
 
   // extend app
   interface Application {
-    Sequelize: typeof sequelize;
-    model: IModel;
+      Sequelize: typeof sequelize;
+      model: IModel;
   }
 
   // extend context
   interface Context {
-    model: IModel;
+      model: IModel;
   }
 
   // extend your config
