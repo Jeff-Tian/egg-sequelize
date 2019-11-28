@@ -11,6 +11,9 @@
 [![Known Vulnerabilities][snyk-image]][snyk-url]
 [![npm download][download-image]][download-url]
 
+
+[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=Jeff-Tian_egg-sequelize)](https://sonarcloud.io/dashboard?id=Jeff-Tian_egg-sequelize)
+
 [npm-image]: https://img.shields.io/npm/v/egg-sequelize.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/egg-sequelize
 [travis-image]: https://img.shields.io/travis/eggjs/egg-sequelize.svg?style=flat-square
