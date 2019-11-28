@@ -1,6 +1,6 @@
 {
-  "name": "egg-sequelize",
-  "version": "5.2.0",
+  "name": "egg-sequelize-x",
+  "version": "0.0.0-development",
   "description": "egg Sequelize plugin",
   "eggPlugin": {
     "name": "sequelize"
@@ -26,7 +26,8 @@
     "eslint": "^5.3.0",
     "eslint-config-egg": "^7.0.0",
     "mysql2": "^1.6.1",
-    "reflect-metadata": "^0.1.13"
+    "reflect-metadata": "^0.1.13",
+    "semantic-release": "^15.13.31"
   },
   "engines": {
     "node": ">=6.0.0"
@@ -37,7 +38,8 @@
     "cov": "egg-bin cov",
     "lint": "eslint .",
     "ci": "npm run lint && npm run cov",
-    "autod": "autod"
+    "autod": "autod",
+    "semantic-release": "semantic-release"
   },
   "files": [
     "app",
@@ -49,12 +51,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-sequelize.git"
+    "url": "https://github.com/jeff-tian/egg-sequelize.git"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com/jeff-tian/egg/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-sequelize#readme",
-  "author": "jtyjty99999",
+  "homepage": "https://github.com/jeff-tian/egg-sequelize#readme",
+  "author": "jeff-tian@outlook.com",
   "license": "MIT"
 }
