@@ -16,7 +16,7 @@
     "@types/sequelize": "^4.27.24",
     "mz-modules": "^2.1.0",
     "sequelize": "^5.0.0",
-    "sequelize-typescript": "^1.0.0"
+    "sequelize-typescript": "^2.1.6"
   },
   "devDependencies": {
     "autod": "^3.0.1",
