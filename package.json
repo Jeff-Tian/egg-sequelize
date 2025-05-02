@@ -15,7 +15,7 @@
   "dependencies": {
     "@types/sequelize": "^4.27.24",
     "mz-modules": "^2.1.0",
-    "sequelize": "^5.0.0",
+    "sequelize": "^6.19.1",
     "sequelize-typescript": "^1.0.0"
   },
   "devDependencies": {
